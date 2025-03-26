@@ -1,0 +1,14 @@
+{
+    "plugins": [
+      {
+        "id": "python-standard",
+        "language": "python",
+        "command": "./parsers/python_todo_parser.py",
+        "extensions": [".py"]
+      }
+    ],
+    "defaults": {
+      "python": "python-standard"
+    }
+  }
+  
