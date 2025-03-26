@@ -1,3 +1,6 @@
+# Prefer an allow list template instead of a deny list template.
+# https://docs.github.com/en/github/using-git/ignoring-files#alternative-negative-patterns
+
 # Go specific ignores
 *.exe
 *.exe~
@@ -7,7 +10,7 @@
 *.test
 *.out
 
-# Binary output directory
+# Binary output directories
 bin/
 dist/
 
@@ -27,10 +30,10 @@ dist/
 ehthumbs.db
 Thumbs.db
 
-# Project specific
+# Project specific directories
 data/
 parsers/
-test_project/
+test_projects/
 
 # Log files
 *.log
@@ -46,6 +49,7 @@ coverage.txt
 vendor/
 
 # Local development files
+.env
 .env.local
 .env.*.local
 
