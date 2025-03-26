@@ -32,7 +32,6 @@ Thumbs.db
 
 # Project specific directories
 data/
-parsers/
 test_projects/
 
 # Log files
@@ -53,5 +52,4 @@ vendor/
 .env.local
 .env.*.local
 
-./test_projects
 
